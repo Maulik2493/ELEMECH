@@ -67,34 +67,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/services/mechanical.png",
+      "name": "Mechanical Project & Maintenance Work",
+      "text": "Design, fabrication, and installation of mechanical systems. Maintenance and repair services for industrial machinery."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/services/plant.png",
+      "name": "Plant Maintenance & Shutdown Jobs",
+      "text": "Scheduled and emergency maintenance of industrial plants. Complete shutdown support for equipment overhauls and safety checks."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/services/electrical.png",
+      "name": "Electrical Project & Maintenance Work",
+      "text": "Installation and commissioning of electrical systems. Routine and preventive maintenance for electrical infrastructure."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/services/liaison.png",
+      "name": "Electrical Liaisoning Work",
+      "text": "Assistance in obtaining electrical approvals and licenses. Compliance with government regulations for electrical projects."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/services/pipeline.png",
+      "name": "Piping & Structural Fabrication",
+      "text": "Manufacturing and installation of industrial piping systems. Structural fabrication for industrial and commercial setups."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/services/safety.png",
+      "name": "Safety & Quality Assurance",
+      "text": "Implementation of safety protocols for industrial projects. Quality inspections and testing for materials and equipment."
     }
   ],
   "Testimonials": [
@@ -153,7 +153,7 @@
   ],
   "Contact": {
     "address": "09 Devikrupa, Padra-Ghayaj Road, Dist. Vadodara- 391440",
-    "phone": "+91 951 039 7314",
+    "phone": "+91 9510397314",
     "email": "elemechenterprises.engg@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",

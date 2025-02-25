@@ -333,22 +333,24 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#services .fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
-  padding: 40px 0;
+  margin:0 auto 0;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
 
   background: linear-gradient(145deg, #1e272e, #485460);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), 
             -5px -5px 10px rgba(255, 255, 255, 0.1);
 
-
-
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+
 
 #services h3 {
   font-weight: 500;
@@ -371,9 +373,16 @@ header .intro-text {
   transition: all 0.3s ease-in-out;
 }
 
-#services .service-box:hover i.fa {
+#services .service-box:hover .fa {
   transform: scale(1.15);
   transition: transform 0.3s ease-in-out;
+}
+
+#services .service-icon
+{
+  height: 60%;
+  width: 60%;
+  filter: invert(1);
 }
 
 

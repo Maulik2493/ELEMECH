@@ -7,7 +7,8 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>What We Offer</h2>
           <p>
-          Reliable industrial solutions for mechanical and electrical projects.
+            Reliable industrial solutions for mechanical and electrical
+            projects.
           </p>
         </div>
         <div className="row">
@@ -15,7 +16,9 @@ export const Services = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4 service-box">
                   {" "}
-                  <i className={d.icon}></i>
+                  <div className="fa">
+                    <img src={d.icon} alt={d.name} className="service-icon" />
+                  </div>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
