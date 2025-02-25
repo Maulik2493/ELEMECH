@@ -16,9 +16,22 @@ export const Header = (props) => {
                 <a
                   href="#about"
                   className="btn btn-custom btn-lg page-scroll"
+                  style={{
+                    background: "rgba(255, 255, 255, 0.15)",
+                    backdropFilter: "blur(8px)",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.transform = "scale(1.05)";
+                    e.target.style.boxShadow =
+                      "0 5px 15px rgba(255, 255, 255, 0.2)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.transform = "scale(1)";
+                    e.target.style.boxShadow = "none";
+                  }}
                 >
                   About Us
-                </a>{" "}
+                </a>
               </div>
             </div>
           </div>
