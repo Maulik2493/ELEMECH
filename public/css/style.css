@@ -8,6 +8,7 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+
 h2,
 h3,
 h4 {
@@ -184,7 +185,7 @@ hr {
   color: #fff;
   background-color: #485460;
   transform: scale(1.05);
-  box-shadow : "0 5px 15px rgba(255, 255, 255, 0.2)";
+  box-shadow: "0 5px 15px rgba(255, 255, 255, 0.2)";
 }
 .btn:active,
 .btn.active {
@@ -204,6 +205,22 @@ a:focus,
   outline-offset: none;
 }
 
+.BrandName {
+  font-size: 25px; /* Default size */
+  font-weight: 700; /* Semibold */
+}
+
+@media (max-width: 768px) {
+  .BrandName {
+    font-size: 23px; /* Adjust size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .BrandName {
+    font-size: 20px; /* Adjust size for mobile devices */
+  }
+}
 
 /* Header Section */
 .intro {
@@ -337,20 +354,19 @@ header .intro-text {
   font-size: 42px;
   width: 120px;
   height: 120px;
-  margin:0 auto 0;
+  margin: 0 auto 0;
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
 
   background: linear-gradient(145deg, #1e272e, #485460);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), 
-            -5px -5px 10px rgba(255, 255, 255, 0.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+    -5px -5px 10px rgba(255, 255, 255, 0.1);
 
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-
 
 #services h3 {
   font-weight: 500;
@@ -378,15 +394,11 @@ header .intro-text {
   transition: transform 0.3s ease-in-out;
 }
 
-#services .service-icon
-{
+#services .service-icon {
   height: 60%;
   width: 60%;
   filter: invert(1);
 }
-
-
-
 
 /* Portfolio Section */
 #portfolio {

@@ -3,7 +3,7 @@ import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+      <div className="container-fluid">
         <div className="navbar-header">
           <button
             type="button"
@@ -22,8 +22,8 @@ export const Navigation = (props) => {
             href="#page-top"
             style={{ display: "flex", alignItems: "center" }}
           >
-            <img src="img/logo.png" alt="Elemech Logo" style={{ height: "52px", width: "auto", marginRight: "10px" }} />
-            <span className="text-lg font-semibold">ELEMECH ENTERPRISES</span>
+            <img src="img/logo.png" alt="Elemech Logo" style={{ height: "52px", width: "auto", marginRight: "5px" }} />
+            <span className="BrandName">ELEMECH ENTERPRISES</span>
           </a>
         </div>
 
